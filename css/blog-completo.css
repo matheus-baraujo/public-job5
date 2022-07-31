@@ -1,0 +1,115 @@
+.topo-blog-completo {
+    background-image: url('../resources/topo blog.png'); 
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 15% ;
+}
+
+.link-return{
+    color: white;
+}
+
+.link-return:hover{
+    color: #70408C;
+}
+
+.content-blog-completo {
+    font-size: 2vw;
+    color: white;
+}
+
+.titulo {
+    color: white;
+    font-size: 3.3vw;
+    font-weight: bold;
+}
+
+.first-item-image{
+    position: relative; 
+    background-position: center !important; 
+    background-size: cover !important; 
+    background-repeat: no-repeat !important;
+    height: 25vw;
+}
+
+
+.post-principal{
+    padding: 0%;
+    padding-right: 20%;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+}
+
+.img2{ 
+    height: 320px;
+}
+
+.img2:hover{
+    opacity: 0.6;
+}
+
+.titulo-secundario {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.info-post-secundario{
+    padding: 2%;
+    border: none;
+    margin: auto;
+}
+
+.tipo-post-secundario{
+    position: absolute; 
+    top: 1%; 
+    right: 2%;
+    color: #FF71A2;
+    font-size: 14px;
+}
+
+.link-playlist {
+    font-size: 1.6rem;
+    color: #70408C;
+}
+
+.link-playlist:hover{
+    color: #FF71A2;
+}
+
+.link-blog-completo {
+    font-size: 18px;
+    color:#FF71A2;
+    font-weight: bold;
+}
+
+.link-blog-completo:hover{
+    color: white;
+}
+
+.mensagem-final {
+    padding: 6%;
+    background-image: url('../resources/fundo-pagina-3.png'); 
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+}
+
+
+@media screen and (max-width: 600px) {
+    .link-playlist{
+        font-size: 0.7rem !important;
+    }
+
+    .first-item-image{
+        height: 25vh !important;
+    }
+
+    .img2{ 
+        height: 120px;
+    }
+}

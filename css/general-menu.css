@@ -1,0 +1,259 @@
+/* General */
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{ 
+    font-family: 'Montserrat', sans-serif;
+    background-color: black;
+}
+
+p{
+    font-size: 1.2rem;
+}
+
+.sessao{
+    padding: 5%;
+}
+
+
+.tituloSessao{
+    color: white;
+    font-weight: bold;
+}
+
+.subtituloSessao {
+    color: white;
+    font-style: italic;
+}
+
+.backgroundContact {
+    background-image: url('../resources/fundo-contato-1.png'); 
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+}
+
+.formulario{
+    border-radius: 15px; 
+    border: 0px;
+    background-color: #070707; 
+    color: gray;
+    width: 100%;
+    font-size: 1.6rem;
+    padding: 5px;
+}
+
+.btn {
+    float:right; 
+    border-radius: 25px; 
+    background-color: #FF71A2;
+    color:black; 
+    padding: 1%; 
+    font-size: 1.6rem;
+    transition: ease-in-out 0.2s;
+}
+
+.btn:hover{
+    opacity: 0.6;
+}
+
+.clippedText{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.clippedText2{
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.clippedTextMultipleLines{
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.playlistPlayer{
+    width: 100% !important;
+    height: 40vh !important;
+}
+
+.linkAdmin{
+    color: #FF71A2;
+}
+
+.linkAdmin:hover{
+    color: #230136;
+}
+
+.imgCover{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+
+
+.commonLink{
+    color: #FF71A2;
+    text-decoration: none;
+}
+
+.commonLink:hover{
+    color: white;
+}
+
+.infoIcon{
+    background: none;
+    border: solid 1px white;
+    border-radius: 100px;
+    color: white;
+    font-size: 1rem;
+}
+
+.fa-info{
+    width: 1rem;
+}
+
+.tam1{
+    font-size: 1.5rem !important;
+    color: #FF71A2;
+}
+
+.tam2{
+    font-size: 1.9rem !important;
+    color: #FF71A2;
+}
+
+.tam3{
+    font-size: 2.4rem !important;
+    color: #FF71A2;
+}
+
+.linkSpotify:hover{
+    opacity: 0.6;
+}
+
+.footer1{
+    border-right: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+/* Menu */
+
+#topnav{
+    background-color: black;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-right: 4%;
+    padding-left: 4%;
+}
+
+.nav-link{
+    font-size: 1.6rem;
+    border-radius: 10px;
+    color: white;
+}
+
+.navbar-nav{
+    padding: 2%;
+}
+
+.nav-item:hover{
+    background-color: #230136;
+}
+
+.nav-link:hover{
+    color: white;
+    text-shadow: 3px 3px 3px #FF71A2;
+}
+
+.contact-icons{
+    margin-left: 1%;
+}
+
+.fab{
+    color:#FF71A2;
+}
+
+.navbar-toggler{
+    color: white;
+}
+
+.iconResso{
+    width: 1.6rem;
+}
+
+
+/*========== MOBILE ==========*/
+
+@media screen and (max-width: 600px) {
+    
+    p{
+        font-size: 0.7rem !important;
+    }
+
+    .tituloSessao{
+        font-size: 1.2rem !important;
+    }
+
+    .subtituloSessao{
+        font-size: 0.9rem !important;
+    }
+
+    .iconResso{
+        width: 0.7rem !important;
+    }
+
+    .formulario{
+        font-size: 0.7rem !important;
+    }
+
+    .btn{
+        font-size: 0.7rem !important;
+    }
+
+    .imgCover{
+        height: 20vw !important;
+    }
+
+    .imgPlaylist{
+        height: 40vw !important;
+    }
+
+    .infoIcon{
+        font-size: 0.7rem !important;
+    }
+
+    .fa-info{
+        width: 0.5rem !important;
+    }
+
+    .tam1{
+        font-size: 0.8rem !important;
+    }
+    
+    .tam2{
+        font-size: 0.9rem !important;
+    }
+    
+    .tam3{
+        font-size: 1rem !important;
+    }
+
+
+    .footer1{
+        
+        border-right: none;
+        border-top: 1px solid rgba(255, 255, 255, 0.5);
+    }
+}
+

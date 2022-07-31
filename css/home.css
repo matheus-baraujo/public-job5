@@ -1,0 +1,164 @@
+
+/* Slides Home */
+
+.imgSlide{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 30%;
+}
+
+.tituloSlide{
+    position: absolute; 
+    left: 15%; 
+    top: 30%; 
+    color:#FF71A2; 
+    font-size: 3.9vw; 
+    font-weight: 700;
+}
+
+.logoSlide{
+    position: absolute; 
+    right: 6%; 
+    bottom: 5%; 
+    width: 5%; 
+    height: auto;
+}
+
+.mensagemBreve{
+    color: #FF71A2; 
+    margin: auto; 
+    padding-top: 5%; 
+    padding-bottom: 5%; 
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+.playlistCover{
+    height: 20vw;
+}
+
+/* Cards */
+
+.card {
+    width: 100%;
+    background-color: #202020;
+    color: white;
+    height: 100%;
+}
+
+.card-title {
+    font-size: 1.2rem;
+    min-height: 2.4rem;
+}
+
+.card-subtitle{
+    min-height: 1.7rem;
+}
+
+.card-text {
+    font-size: 1rem;
+}
+
+.section-link {
+    width: auto;
+    color: #FF71A2;
+    text-decoration: none;
+    margin-right: 0%;
+    margin-left: auto;
+}
+
+.section-link:hover {
+    color: white;
+}
+
+.card-body {
+    padding: 5%;
+}
+
+.imgCard{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 15vw;
+}
+
+.thumbnail {
+    border-radius: 5px;
+}
+
+.play-button {
+    position: absolute; 
+    top: 30%; 
+    left: 40%; 
+    width: 24%; 
+    height: auto;
+}
+
+.links-contact {
+    padding:4%;
+    padding-bottom: 0%; 
+    padding-left: 8%; 
+    font-size: 1.6rem; 
+    color: #FF71A2;
+}
+
+.linkCard{
+    color: #FF71A2;
+    text-decoration: none;
+}
+
+.linkCard:hover{
+    color: white;
+}
+
+.playlistCover{
+        
+    height: 350px;
+}
+
+/* MOBILE */
+
+@media screen and (max-width: 600px) {
+    .mensagemBreve{
+        font-size: 0.7rem !important;
+    }
+    
+    .card-title{
+        font-size: 0.8rem !important;
+        min-height: 2rem;
+    }
+
+    .card-subtitle{
+        font-size: 0.7rem !important;
+        min-height: 1.7rem;
+    }
+
+    .card-text{
+        font-size: 0.7rem !important;
+    }
+
+    .section-link{
+        font-size: 0.7rem !important;
+    }
+
+    .links-contact{
+        font-size: 0.7rem !important;
+    }
+
+    .playlistCover{
+        
+        height: 18vh !important;
+    }
+
+    .centralizedCover{
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+
+    .imgCard{
+        height: 15vh !important; 
+    }
+    
+}

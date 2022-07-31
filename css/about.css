@@ -1,0 +1,57 @@
+.topo-about {
+    background-image: url('../resources/topo about.png'); 
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 20% ;
+}
+
+.texto-about {
+    color: white;
+    font-size: 1.2rem;
+    padding: 0% 5%;
+}
+
+.links-contact {
+    padding:4%;
+    padding-bottom: 0%; 
+    padding-left: 8%; 
+    font-size: 1.6rem; 
+    color: #FF71A2;
+}
+
+.links-contact2 {
+    padding: 0% 4%;
+    text-align: left;  
+    font-size: 1.6rem; 
+    color: #FF71A2;
+}
+
+.backgroundContact {
+    background-image: url('../resources/fundo-contato-1.png'); 
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+}
+
+
+/* MOBILE */
+
+@media screen and (max-width: 600px) {
+
+    .texto-about {
+        font-size: 0.7rem !important;
+    }
+
+
+    .links-contact{
+        font-size: 0.7rem !important;
+    }
+
+    .links-contact2{
+        font-size: 0.7rem !important;
+    }
+
+}

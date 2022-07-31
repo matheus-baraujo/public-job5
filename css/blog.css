@@ -1,0 +1,114 @@
+.topo-blog {
+    background-image: url('../resources/topo blog.png'); 
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 20% ;
+}
+
+.content-blog {
+    color: white;
+    background-image: url('../resources/fundo-pagina-3.png'); 
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+    
+}
+
+/* Post principal */
+
+.post-principal{
+    padding: 0%;
+    height: 650px; 
+    position: relative;
+    background-position: center !important; 
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+}
+
+.dataPostPrincipal{
+    position: absolute; 
+    top: 5%; 
+    left: 5%;
+}
+
+/* Posts Secundarios */
+
+.post-secundario:hover{
+    opacity: 0.6;
+}
+
+.tituloPostSecundario{
+    color: white;
+    font-weight: bold;
+}
+
+.info-post-secundario{
+    padding: 0% 2%;
+    border: none;
+}
+
+.info-post-secundario:hover{
+    text-decoration: none !important;
+}
+
+.tipo-post-secundario{ 
+    text-align: right;
+    color: #FF71A2;
+}
+
+/* Links */
+
+.link-playlist {
+    font-size: 1.6rem;
+    color: #70408C;
+    text-decoration: none;
+}
+
+.link-playlist:hover{
+    color: #FF71A2;
+}
+
+.link-blog-completo {
+    font-size: 1.6rem;
+    color:#FF71A2;
+    font-weight: bold;
+    margin-right: 0%;
+    margin-left: auto;
+    width: auto;
+    text-decoration: none;
+}
+
+.link-blog-completo:hover{
+    color: white;
+}
+
+.separation{
+    width: 65%; 
+    border-color: #9641C7; 
+    margin-left: 32%;
+}
+
+.card-horizontal {
+    display: flex;
+    flex: 1 1 auto;
+}
+
+
+@media screen and (max-width: 600px) {
+    
+    .post-principal{
+        height: 60vw !important;
+    }
+
+    .link-playlist{
+        font-size: 0.7rem !important;
+    }
+
+    .link-blog-completo{
+        font-size: 0.7rem !important;
+    }
+
+}

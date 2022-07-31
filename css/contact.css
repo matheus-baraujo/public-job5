@@ -1,0 +1,48 @@
+.links-contact-2 {
+    margin-top: 5%;
+    font-size: 1.6rem;
+    color: #FF71A2;
+    width: auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.form-contact-alter {
+    margin-top: 0%;
+    padding: 10% 4%;
+    background-image: url('../resources/fundo-contato-2.png'); 
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+}
+
+
+.line{
+    border-top: 2px solid white; 
+    margin-top: 15%; 
+    margin-bottom: 5%; 
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (max-width: 600px) {
+
+    .links-contact-2{
+        font-size: 0.7rem !important;
+    }
+
+}
+
+/*=======================================*/
+
+#controles .btn{
+    width: 100%;
+    transition: ease-in-out 0.2s;
+}
+
+.highlight, #controles .btn:hover{
+    opacity: 0.6;
+}
+
+

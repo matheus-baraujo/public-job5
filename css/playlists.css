@@ -1,0 +1,48 @@
+.topo-playlists {
+    background-image: url('../resources/topo playlists.png'); 
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 20% ;
+}
+
+
+.imgPlaylist{
+    height: 320px;
+}
+
+.mensagemBreve{
+    color: #FF71A2; 
+    margin: auto; 
+    padding-top: 5%; 
+    padding-bottom: 5%; 
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+.form-contact {
+    max-height: max-content;
+    padding: 6% 4%;
+    background-image: url('../resources/fundo-contato-1.png'); 
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+}
+
+.mensagem-final {
+    color: white;
+    background-image: url('../resources/fundo-pagina-2.png'); 
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+}
+
+
+@media screen and (max-width: 600px) {
+
+    .mensagemBreve{
+        font-size: 0.7rem !important;
+    }
+}
